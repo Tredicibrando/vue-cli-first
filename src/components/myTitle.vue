@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Titolo stampato con modulo</h1>
+    <h1>Componente creato con Vue</h1>
   </div>
 </template>
 

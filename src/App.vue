@@ -1,28 +1,33 @@
 <template>
   <div id="app">
     <MyTitle />
+    <MyJumbo />
   </div>
 </template>
 
 <script>
 import MyTitle from '@/components/MyTitle'
+import MyJumbo from '@/components/MyJumbo'
 
 
 export default {
   name: 'App',
   components: {
     MyTitle,
+    MyJumbo,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 10px 0;
 }
 </style>
